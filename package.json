@@ -1,0 +1,17 @@
+{
+  "name": "module-09",
+  "version": "1.0.0",
+  "description": "## Description How to smoke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "badge-maker": "^3.3.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "8.2.4"
+  }
+}

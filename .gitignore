@@ -1,0 +1,7 @@
+# ignore the following
+node_modules
+*.vscode
+instructions.md
+MARKDOWN_REFERENCE.md
+readme.js
+readmeHowTo.md
