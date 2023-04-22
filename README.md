@@ -21,7 +21,7 @@ git clone repo
 
 ## Usage
 
-node index.js
+`node index.js`
 
 ## License
 
