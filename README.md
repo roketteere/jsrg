@@ -7,8 +7,7 @@
 README.md generator
 
 ## Demo
-
-<video src=video/demo.mp4 width=70%>
+https://user-images.githubusercontent.com/1593262/233810937-58523a2c-939e-4fa7-bcf5-c6aabcf012c6.mp4
 
 ## Table of Contents
 
