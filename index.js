@@ -158,7 +158,7 @@ ${"https://github.com/" + answers.github}
 ${answers.email}
 
 `;
-  fs.writeFile("README.md", README, (error) => {
+  fs.writeFile("./output/README.md", README, (error) => {
     error
       ? console.log("Oops it failed:\n", error)
       : console.log("Successfully Created README.md");
