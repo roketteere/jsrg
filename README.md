@@ -1,9 +1,14 @@
 # Sample README Generated File
-  ![](https://img.shields.io/badge/license-MIT-blue.svg)
+
+![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
 README.md generator
+
+## Demo
+
+<video src=video/demo.mp4 width=70%>
 
 ## Table of Contents
 
