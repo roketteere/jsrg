@@ -120,10 +120,12 @@ function generateReadme(answers) {
     EUPL11: "European Union Public License 1.1",
   };
   const licenseBadge = new Badge("License", answers.license, "grey", "blue");
-  const badge = licenseBadge.spitBadgeOut();
+  // --depreciated
+  // using shield.io url instead
+  // const badge = licenseBadge.spitBadgeOut();
   const README = `
 # ${answers.title}
-${badge[1]}
+![](https://img.shields.io/badge/License-${answers.license}-blue)
 
 ## Description
 ${answers.description}
@@ -168,5 +170,5 @@ ${answers.email}
 
 const readme = getReadmeItems().then((answers) => {
   generateReadme(answers);
-  console.log("Answers\n", answers);
+  console.log("Answers\n", readme);
 });
